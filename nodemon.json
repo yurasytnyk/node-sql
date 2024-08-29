@@ -1,0 +1,7 @@
+{
+  "watch": ["src", ".env", "package.json", "tsconfig.json"],
+  "ext": "js,ts,json",
+  "ignore": ["src/logs/*", "src/**/*.{spec,test}.ts"],
+  "exec": "npx ts-node -r tsconfig-paths/register src/server.ts",
+  "delay": 2500
+}
