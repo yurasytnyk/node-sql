@@ -5,7 +5,8 @@
   "scripts": {
     "build": "swc src -d dist --source-maps",
     "start": "node dist/server.js",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "Yurii Sytnyk",
@@ -20,7 +21,8 @@
     "@types/pg": "^8.11.6",
     "nodemon": "^3.1.4",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
   },
   "dependencies": {
     "@t3-oss/env-core": "^0.11.1",

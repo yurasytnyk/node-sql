@@ -35,4 +35,3 @@ volumes:
 secrets:
   db-password:
     file: src/db/password.txt
-
