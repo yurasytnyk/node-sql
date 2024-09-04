@@ -65,6 +65,10 @@ RUN npm run build
 # where the necessary files are copied from the build stage.
 FROM base as prod
 
+# Use secrets from Github
+RUN --mount=type=secret,id=db_password \
+    cat /run/secrets/db_password
+
 # Use production node environment by default.
 ENV NODE_ENV production
 
