@@ -79,6 +79,9 @@ web_modules/
 .env.production.local
 .env.local
 
+# tsimp cache
+.tsimp
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
